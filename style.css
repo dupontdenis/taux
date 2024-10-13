@@ -1,0 +1,20 @@
+.warning {
+  background-color: #ffcccb !important
+    /* Light red background for warning rows */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+  /* Light gray background for odd rows */
+}
+
+.table-striped tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Slightly darker gray on hover */
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
